@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion House</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
@@ -41,6 +43,7 @@
                 </div>
             </div>
         </nav>
+        <hr>
         <div class="flex flex-col md:flex-row justify-between items-center">
             <div class="">
                 <h1 class="text-5xl uppercase font-bebas"><span class="text-[#c9a96d]">Be the Penguins</span> <br>
@@ -219,11 +222,11 @@
             <div class="space-y-10">
                 <div class="flex gap-x-10 bg-[#f8f5f5] rounded-xl drop-shadow-lg w-5/6">
                     <div class="w-28"><img src="icons/house.png" alt=""></div>
-                  <div>
-                    <h3 class="text-3xl font-bold">Find the Perfect Fit</h3>
-                    <p class="text-md font-romoto-400 pt-4">Everybody is different, which is why we
-                        offer styles for every body.</p>
-                  </div>
+                    <div>
+                        <h3 class="text-3xl font-bold">Find the Perfect Fit</h3>
+                        <p class="text-md font-romoto-400 pt-4">Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
                 </div>
                 <div class="flex gap-x-10 bg-[#f8f5f5] rounded-xl drop-shadow-lg w-5/6">
                     <div class="w-28"><img src="icons//box.png" alt=""></div>
@@ -241,18 +244,39 @@
                             literally what we pay them for.</p>
                     </div>
                 </div>
-                
+
             </div>
             <div class="w-1/2">
                 <img src="images/shopping.png" alt="">
             </div>
-           
+
 
 
         </section>
     </main>
-    <footer>
-
+    <footer class="p-11 bg-neutral text-neutral-content mt-12">
+       <div class="footer">
+        <div>
+            <span class="footer-title">Services</span>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </div>
+        <div>
+            <span class="footer-title">Company</span>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </div>
+        <div>
+            <span class="footer-title">Legal</span>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </div>
+       </div>
     </footer>
 
 </body>
